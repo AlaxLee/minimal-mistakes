@@ -10,7 +10,7 @@ tags:
   - "Go: 1.16.3"
 ---
 
-*string type* 就是字符串
+*string type* 字符串
 
 # [String types](https://golang.google.cn/ref/spec#String_types)
 
@@ -66,7 +66,7 @@ func main() {
 }
 ```
 
-```assembly
+```nasm
 AlaxdeMacBook-Pro:test alax$ go tool compile -S -N -l main.go 
 "".main STEXT size=236 args=0x0 locals=0x80 funcid=0x0
 ...

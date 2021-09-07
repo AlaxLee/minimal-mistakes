@@ -54,7 +54,7 @@ func main() {
 }
 ```
 
-```assembly
+```nasm
 AlaxdeMacBook-Pro:test alax$ go tool compile -S -N -l main.go 
 "".main STEXT size=185 args=0x0 locals=0x70 funcid=0x0
 ...

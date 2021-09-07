@@ -10,7 +10,7 @@ tags:
   - "Go: 1.16.3"
 ---
 
-*array type* 就是数组
+*array type* 数组
 
 ## 官方定义
 
@@ -66,7 +66,7 @@ func main() {
 }
 ```
 
-```assembly
+```nasm
 AlaxdeMacBook-Pro:test alax$ go tool compile -S -N -l main.go 
 "".main STEXT size=305 args=0x0 locals=0x98 funcid=0x0
 ...

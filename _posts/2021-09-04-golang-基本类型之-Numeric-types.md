@@ -10,7 +10,7 @@ tags:
   - "Go: 1.16.3"
 ---
 
-*numeric type* 是整型和浮点型的集合
+*numeric type* 整型和浮点型的集合
 
 ## 官方定义
 
@@ -159,7 +159,7 @@ func main() {
 }
 ```
 
-```assembly
+```nasm
 AlaxdeMacBook-Pro:test alax$ go tool compile -S -N -l main.go 
 "".main STEXT size=1940 args=0x0 locals=0x248 funcid=0x0
 ...
