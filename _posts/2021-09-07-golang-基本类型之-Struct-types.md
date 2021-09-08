@@ -14,7 +14,7 @@ tags:
 
 ## 官方定义
 
-官方文档地址 https://golang.google.cn/ref/spec#Struct_types
+官方文档地址 [https://golang.google.cn/ref/spec#Struct_types](https://golang.google.cn/ref/spec#Struct_types)
 
 A struct is a sequence of named elements, called fields, each of which has a name and a type. Field names may be specified **explicitly (IdentifierList)** or **implicitly (EmbeddedField)**. Within a struct, non-blank field names must be unique.
 
