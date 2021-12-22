@@ -101,7 +101,7 @@ type.*[3]int SRODATA dupok size=56
 `type.*[3]int` ：
 
 - size=56，与 ptrtype 大小正好对应上
-- 0+8，ptrtype.typ.size  表示函数值结构大小是8
+- 0+8，ptrtype.typ.size  表示指针值结构大小是8
 - 8+8，ptrtype.typ.ptrdata 值是8，表示值结构前8个字节存放有指针，与值结构存放地址的说法一致
 - 32+8，ptrtype.typ.gcdata 表示值结构的哪些word存放着指针，这里值是 runtime.gcbits.01，01 的 二进制是 01，表示值结构只有第一个word存放的指针，与值结构实际情况一致
 - 48+8，ptrtype.elem 标志指针指向的类型
